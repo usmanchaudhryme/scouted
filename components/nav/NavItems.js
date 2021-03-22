@@ -1,14 +1,9 @@
-export const NavItems = [
-    'Button',
-    'Heading',
-    'Input Field',
-    'Text Area',
-    'Datepicker',
-    'Radio Button',
-    'Checkbox',
-    'Toggle',
-    'Avatar',
-    'Help Box',
-    'On-Site Notification',
-    'Pagination',
+const NavItems = [
+    { name: 'Button', link: '/' },
+    { name: 'Heading', link: '/heading' },
+    { name: 'Form', link: '/form' },
+    { name: 'Progress', link: '/progress' },
+    { name: 'Card', link: '/card' },
+
 ]
+export default NavItems
